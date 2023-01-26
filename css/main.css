@@ -14,7 +14,7 @@
   --btn-default-bg: #fff;
   --btn-default-color: #555;
   --btn-default-border-color: #555;
-  --btn-default-hover-bg: #222;
+  --btn-default-hover-bg: #fbbdd6;
   --btn-default-hover-color: #fff;
   --btn-default-hover-border-color: #222;
 }
@@ -961,7 +961,7 @@ pre .javascript .function {
   padding: 0 10px;
 }
 .headband {
-  background: #222;
+  background: #fbbdd6;
   height: 3px;
 }
 .site-meta {
@@ -1168,7 +1168,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #d15299;
+  background: #7a28ff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1961,6 +1961,13 @@ pre .javascript .function {
 }
 #qr p {
   text-align: center;
+}
+.post-copyright {
+  background: var(--card-bg-color);
+  border-left: 3px solid #ff2a2a;
+  list-style: none;
+  margin: 2em 0 0;
+  padding: 0.5em 1em;
 }
 .category-all-page .category-all-title {
   text-align: center;
